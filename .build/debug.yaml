@@ -1,0 +1,153 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "iosMath-debug.module": ["<iosMath-debug.module>"]
+  "main": ["<iosMath-debug.module>"]
+  "test": ["<iosMath-debug.module>"]
+default: "main"
+nodes:
+  "/Users/dayo/Documents/IOS/iosMath/iosMath/":
+    is-directory-structure: true
+commands:
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathAtomFactory.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/lib/MTMathAtomFactory.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathAtomFactory.m.o"]
+    description: "Compiling iosMath lib/MTMathAtomFactory.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathAtomFactory.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/lib/MTMathAtomFactory.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathAtomFactory.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathAtomFactory.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathList.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/lib/MTMathList.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathList.m.o"]
+    description: "Compiling iosMath lib/MTMathList.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathList.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/lib/MTMathList.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathList.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathList.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathListBuilder.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/lib/MTMathListBuilder.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathListBuilder.m.o"]
+    description: "Compiling iosMath lib/MTMathListBuilder.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathListBuilder.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/lib/MTMathListBuilder.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathListBuilder.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathListBuilder.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathListIndex.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/lib/MTMathListIndex.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathListIndex.m.o"]
+    description: "Compiling iosMath lib/MTMathListIndex.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathListIndex.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/lib/MTMathListIndex.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathListIndex.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathListIndex.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTUnicode.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/lib/MTUnicode.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTUnicode.m.o"]
+    description: "Compiling iosMath lib/MTUnicode.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTUnicode.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/lib/MTUnicode.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTUnicode.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTUnicode.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTFont.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/render/MTFont.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTFont.m.o"]
+    description: "Compiling iosMath render/MTFont.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTFont.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/render/MTFont.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTFont.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTFont.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTFontManager.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/render/MTFontManager.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTFontManager.m.o"]
+    description: "Compiling iosMath render/MTFontManager.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTFontManager.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/render/MTFontManager.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTFontManager.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTFontManager.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTLabel.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/render/MTLabel.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTLabel.m.o"]
+    description: "Compiling iosMath render/MTLabel.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTLabel.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/render/MTLabel.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTLabel.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTLabel.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTMathListDisplay.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/render/MTMathListDisplay.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTMathListDisplay.m.o"]
+    description: "Compiling iosMath render/MTMathListDisplay.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTMathListDisplay.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/render/MTMathListDisplay.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTMathListDisplay.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTMathListDisplay.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTMathUILabel.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/render/MTMathUILabel.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTMathUILabel.m.o"]
+    description: "Compiling iosMath render/MTMathUILabel.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTMathUILabel.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/render/MTMathUILabel.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTMathUILabel.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTMathUILabel.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSBezierPath+addLineToPoint.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/render/NSBezierPath+addLineToPoint.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSBezierPath+addLineToPoint.m.o"]
+    description: "Compiling iosMath render/NSBezierPath+addLineToPoint.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSBezierPath+addLineToPoint.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/render/NSBezierPath+addLineToPoint.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSBezierPath+addLineToPoint.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSBezierPath+addLineToPoint.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSColor+HexString.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/render/NSColor+HexString.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSColor+HexString.m.o"]
+    description: "Compiling iosMath render/NSColor+HexString.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSColor+HexString.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/render/NSColor+HexString.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSColor+HexString.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSColor+HexString.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSView+backgroundColor.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/render/NSView+backgroundColor.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSView+backgroundColor.m.o"]
+    description: "Compiling iosMath render/NSView+backgroundColor.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSView+backgroundColor.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/render/NSView+backgroundColor.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSView+backgroundColor.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSView+backgroundColor.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/UIColor+HexString.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/render/UIColor+HexString.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/UIColor+HexString.m.o"]
+    description: "Compiling iosMath render/UIColor+HexString.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/UIColor+HexString.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/render/UIColor+HexString.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/UIColor+HexString.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/UIColor+HexString.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/internal/MTFontMathTable.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/render/internal/MTFontMathTable.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/internal/MTFontMathTable.m.o"]
+    description: "Compiling iosMath render/internal/MTFontMathTable.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/internal/MTFontMathTable.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/render/internal/MTFontMathTable.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/internal/MTFontMathTable.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/internal/MTFontMathTable.m.d"
+
+  "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/internal/MTTypesetter.m.o":
+    tool: clang
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/render/internal/MTTypesetter.m"]
+    outputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/internal/MTTypesetter.m.o"]
+    description: "Compiling iosMath render/internal/MTTypesetter.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=iosMath","-I","/Users/dayo/Documents/IOS/iosMath/iosMath","-fmodules-cache-path=/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/internal/MTTypesetter.m.d","-c","/Users/dayo/Documents/IOS/iosMath/iosMath/render/internal/MTTypesetter.m","-o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/internal/MTTypesetter.m.o"]
+    deps: "/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/internal/MTTypesetter.m.d"
+
+  "<iosMath-debug.module>":
+    tool: phony
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathAtomFactory.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathList.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathListBuilder.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTMathListIndex.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/lib/MTUnicode.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTFont.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTFontManager.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTLabel.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTMathListDisplay.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/MTMathUILabel.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSBezierPath+addLineToPoint.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSColor+HexString.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/NSView+backgroundColor.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/UIColor+HexString.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/internal/MTFontMathTable.m.o","/Users/dayo/Documents/IOS/iosMath/.build/arm64-apple-macosx/debug/iosMath.build/render/internal/MTTypesetter.m.o"]
+    outputs: ["<iosMath-debug.module>"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/dayo/Documents/IOS/iosMath/iosMath/","/Users/dayo/Documents/IOS/iosMath/Package.swift","/Users/dayo/Documents/IOS/iosMath/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

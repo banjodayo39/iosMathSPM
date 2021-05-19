@@ -1,0 +1,4 @@
+module iosMath {
+    umbrella "/Users/dayo/Documents/IOS/iosMath/iosMath"
+    export *
+}
